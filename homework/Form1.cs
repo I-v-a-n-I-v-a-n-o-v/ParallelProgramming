@@ -10,7 +10,7 @@ namespace homework
      * Recources:
      * http://www.vcskicks.com/image-to-byte.php
      * http://www.java2s.com
-     * 
+     * https://en.wikipedia.org/wiki/Bilinear_interpolation
      * 
      */
     public partial class Form1 : Form
