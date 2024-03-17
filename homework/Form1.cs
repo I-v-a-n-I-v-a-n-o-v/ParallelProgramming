@@ -92,6 +92,7 @@ namespace homework
             stopwatch.Stop();
             pictureBoxScaledImage.Image = scaledImage;
             lableScaleTime.Text = stopwatch.ElapsedMilliseconds.ToString() + " ms";
+            buttonSave.Enabled = true;
         }
 
         private void buttonConsequential_Click(object sender, EventArgs e)
@@ -107,6 +108,7 @@ namespace homework
             stopwatch.Stop();
             pictureBoxScaledImage.Image = scaledImage;
             lableScaleTime.Text = stopwatch.ElapsedMilliseconds.ToString() + " ms";
+            buttonSave.Enabled = true;
         }
     }
 }
